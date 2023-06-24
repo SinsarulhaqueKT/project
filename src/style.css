@@ -1,0 +1,464 @@
+*{
+  border: 0%;
+  margin: 0%;
+}
+.nav-main{
+    display: flex;
+   
+}
+.mm{
+    width: 100%;
+    height: 90px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   top: 0px;
+    
+}
+/* .mainimage{
+    height: 80vh;
+} */
+.logo{
+    width:100px;
+    height: 50px;
+}
+.nav-main{
+    width: 700px;
+    height: 65px;
+    font-size: 20px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.same{
+    text-decoration: none;
+    color: black;
+}
+.but{
+    width: 190px;
+    height: 40px;
+    background-color: rgb(64, 7, 197);
+    color: white;
+    font-size: 17px;
+    border: none;
+
+}
+
+.mainbody1{
+    display: flex;
+    flex-direction: column;
+    
+    height: 78vh;
+
+}
+.playcards{
+    border: 1px solid black;
+    width: 380px;
+    height: 100px;
+    font-size: 12px;
+   position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+  margin-top: 300px;
+}
+.mainplaycrds{
+    
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 400px; */
+}
+.iconpic{
+    width: 30px;
+    height: 45px;
+    margin-top: 20px;
+   
+}
+.right1{
+    display: flex;
+    flex-direction: column;
+}
+.rightdiv{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 80%;
+}
+.boknow{
+    width: 300px;
+    height: 30px;
+    margin-right: 25px;
+    background-color: blue;
+    color: white;
+}
+.mainbody3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;height: 80vh;
+justify-content: space-evenly;
+}
+.body3text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+   
+}
+.advantages{
+    width: 84%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.alladv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redtext{
+    color: red;
+    font-size: 30px;
+}
+.redbelow{
+    font-size: 15px;
+}
+.subadvantage{
+    width: 84%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.servicehead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.servicecards{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+ box-shadow: 0 0 10px grey;
+
+}
+.express{
+    width: 280px;
+    height: 170px;
+    display: flex;
+    padding-left: 40px;
+    justify-content: center;
+
+}
+.expresspara{
+    font-size: 14px;
+}
+.expresspara2{
+    font-size: 13px;
+}
+
+.headpara{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: space-evenly;
+}
+.expresshead{
+    font-size: 20px;
+}
+.maincontainerservice{
+    background-color: lightgray;
+}
+.uniquehead{
+    text-align: center;
+    font-size: 30px;
+}
+.uniqueimg{
+    width: 120px;
+    height: 85px;
+}
+.uniques{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+.mainuniquebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mainbody5{
+ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+    justify-content: space-evenly;
+    
+}
+
+
+.mainbody6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headnews{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.newsheadpara{
+    color: grey;
+}
+.newscardmain{
+    display: flex;
+    width: 100%;
+    height: 480px;
+    justify-content: space-evenly;
+}
+.innercard{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height:440px;
+   border: 1px solid grey;
+   box-shadow: 0 0 10px grey;}
+.retailhead{
+    font-size: 22px;
+}
+.retailpara{
+    margin-top: 10px;
+}
+.testitext{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainalltest{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.leftall{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.textihead{
+    font-size: 27px;
+}
+
+.testitext{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rightall{
+    width: 40%;
+}
+.rightimg{
+    
+    height: 100%;
+}
+.leftall{
+    width: 50%;
+   
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    background-color: rgb(2, 2, 57);
+}
+.logfooter{
+    width: 100px;
+    height: 60px;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   height: 60vh;
+   width: 250px;
+   color: white;
+
+}
+.sociallogos{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.socialmedia{
+    width: 36px;
+    height: 37px;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+}
+.footercompany{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.footdesc{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mainlastfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(225, 11, 79);
+    color: white;
+
+}
+.policy{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.compp{
+    margin-right: 70px;
+}
+.textcompeny{
+background-color: aqua;
+width: 100px;
+
+}
+.samecompeny{
+    border: hidden;
+   
+}
+.mainimage{
+    position: absolute;
+}
+.trackhead{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.line{
+    width: 90px;
+    height: 20px;
+    border:hidden;
+    border-top: 3px solid red;
+    margin-left: 20px;
+}
+.trackpara{
+    padding-left: 20px;
+    height: 50px;
+    font-size: 18px;
+
+}
+.radio{
+    margin-left: 20px;
+
+
+}
+.radioall{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.textbox{
+    width: 80%;
+    height: 160px;
+    margin-left: 20px;
+
+}
+.trackbut{
+    width: 80px;
+    color: white;
+    height: 45px;
+    font-size: 25px;
+    margin-left: 20px;
+    background-color: rgb(4, 4, 174);
+
+}
+.inputandtrackbut{
+    display: flex;
+    height: 230px;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.beware{
+    margin-left: 20px;
+    font-size: 17px;
+    
+
+}
+.headgrowwithus{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+.growwithuspara{
+    font-size: 15px;
+    height: 100px;
+}
+.mainheadgrowwithus{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(2, 21, 87);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.oppurtunity{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.innermain{
+    width: 200px;
+    
+    
+}
+
+
