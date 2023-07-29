@@ -22,9 +22,7 @@ const Home = () => {
       <Footer/>
       <LaFooter/>
       
-      
-      
-    </div>
+      </div>
   )
 }
 

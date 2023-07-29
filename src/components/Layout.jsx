@@ -13,17 +13,7 @@ function Layout() {
           <Link className="same" to="/">
             Home
           </Link>
-          <select name="" className="samecompeny">
-            <option className="textcompeny" selected hidden>
-              Company
-            </option>
-            <option value="">About Us</option>
-            <option value="">Leadership</option>
-            <option value="">Awards and recognision</option>
-            <option value="">Corporate Social responsibility</option>
-            <option value="">invester relation</option>
-          </select>
-
+         
           <Link className="same" to="growwithus">
             Grow With Us
           </Link>
@@ -34,11 +24,12 @@ function Layout() {
             Contact Us
           </Link>
         </ul>
+        
         <button className="but">SHIP WITH MYDTDC</button>
       </nav>
       <Outlet />
-    </div>
+      </div>
   );
-}
+};
 
 export default Layout;

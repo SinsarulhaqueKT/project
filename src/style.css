@@ -57,11 +57,12 @@
 .playcards{
     border: 1px solid black;
     width: 380px;
-    height: 100px;
+    height: 120px;
     font-size: 12px;
    position: relative;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
   margin-top: 300px;
 }
@@ -74,9 +75,13 @@
     justify-content: space-evenly;
     /* margin-bottom: 400px; */
 }
+.bothimgandtext{
+    display: flex;
+    justify-content: space-evenly;
+}
 .iconpic{
     width: 30px;
-    height: 45px;
+    height: 35px;
     margin-top: 20px;
    
 }
@@ -89,12 +94,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100px;
+    /* height: 100px; */
     width: 80%;
 }
 .boknow{
-    width: 300px;
-    height: 30px;
+    width: 380px;
+    height: 40px;
     margin-right: 25px;
     background-color: blue;
     color: white;
@@ -157,7 +162,6 @@ justify-content: space-evenly;
     width: 30%;
     height: 400px;
     background-color: white;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -251,7 +255,8 @@ justify-content: space-evenly;
     width: 380px;
     height:440px;
    border: 1px solid grey;
-   box-shadow: 0 0 10px grey;}
+   box-shadow: 0 0 10px grey;
+}
 .retailhead{
     font-size: 22px;
 }
@@ -451,14 +456,83 @@ width: 100px;
     display: flex;
 }
 .oppurtunity{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: space-evenly;
 }
 .innermain{
     width: 200px;
-    
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border: hidden;
+    box-shadow: 0 0 10px grey;
 }
+.buttton{
+    width: 100px;
+
+}
+.lifehead{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    background-color: rgb(2, 21, 87);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.paramaindiv{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.underline{
+    width: 70px;
+    border: 2px solid red;
+}
+.uniquehead{
+    margin-top: 50px;
+    display: flex;
+}
+.uniqueparadiv{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.funhead{
+
+    display: flex;
+    font-size: 30px;
+}
+.funpara{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+@media (max-width:500px){
+
+        .mm{
+            width: 100%;
+            display: flex;
+        }
+        .logo{
+            width: 50px;
+            height: 26px;
+            margin-left: 50px;
+        
+        }
+        .pooints{
+            width: 300px;
+        }
+        
+    }
 
 

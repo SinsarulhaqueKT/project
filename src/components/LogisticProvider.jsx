@@ -27,14 +27,13 @@ const LogisticProvider = () => {
       <div className="subadvantage">
         <div className="alladv">
           <h3 className="redtext">96%</h3>
-          <h5 className="redbelow">of Indian Population Covered  (approx.)</h5>
+          <h5 className="redbelow">of Indian Population Covered (approx.)</h5>
         </div>
-      <div className="alladv">
+        <div className="alladv">
           <h3 className="redtext">2.21 million sq. ft</h3>
           <h5 className="redbelow">area under management</h5>
         </div>
       </div>
-      
     </div>
   );
 };
